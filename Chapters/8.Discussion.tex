@@ -1,0 +1,114 @@
+\chapter{Συμπεράσματα \& Προτάσεις για Μελλοντική Έρευνα} \label{conclusions}
+
+\section{Συσχέτιση \textlatin{ensemble NXSV} με την λαμπρότητα $L_X$}
+
+Στο σχήμα \ref{fig:ClassicResult} έχουμε την σχέση του κλασσικά υπολογισμένου πλάτους μεταβλητότητας $\sigma_{rms}^2$ για κάθε πηγή και την \textlatin{ensemble NXSV} με την λογαριθμική λαμπρότητα $L_X$. Για την σχέση της \textlatin{ensemble NXSV} με το παρατηρησιακό μέγεθος της λαμπρότητας $L_X$ ο στατιστικός έλεγχος \textlatin{Kendall's} $\tau$ δίνει συντελεστή συσχέτισης $\tau = -0.810$ και ο έλεγχος \textlatin{Spearman's rank} δίνει συντελεστή συσχέτισης $\rho= -0.893$ me τιμές σημαντικότητας $P_{null, \tau} =0.011<0.05$ kai $P_{null, \rho} = 0.007<0.05$ αντίστοιχα. Οι παραπάνω τιμές σημαντικότητας είναι μικρότερες της κρίσιμης τιμής $5\%= 0.05$, οπότε σε επίπεδο σημαντικότητας $95\%$ έχουμε ισχυρή ένδειξη αντισυσχέτισης της \textlatin{ensemble NXSV} με την λογαριθμική λαμπρότητα, όπως είδαμε και στην παράγραφο 5.3. 
+
+Στο σχήμα \ref{fig:SampledResultB} έχουμε την σχέση του αλγοριθμικά εκτιμημένου πλάτους μεταβλητότητας $\sigma_{rms, Bayes}^2$ και την \textlatin{Bayesian ensemble NXSV} με την λογαριθμική λαμπρότητα $L_X$. Για την σχέση της \textlatin{Bayesian ensemble NXSV} με το παρατηρησιακό μέγεθος της λαμπρότητας $L_X$ ο στατιστικός έλεγχος \textlatin{Kendall's} $\tau$ δίνει συντελεστή συσχέτισης $\tau = -0.238$ και ο έλεγχος \textlatin{Spearman's rank} δίνει συντελεστή συσχέτισης $\rho= -0.393$ me τιμές σημαντικότητας $P_{null, \tau} =0.562>0.05$ kai $P_{null, \rho} =0.383>0.05$. Οι παραπάνω τιμές σημαντικότητας είναι πολύ μεγαλύτερες από $5\%$, οπότε, στην περίπτωση της δειγματοληπτικής \textlatin{ensemble NXSV}, η συσχέτιση κατηγορηματικά απορρίπτεται όπως είδαμε και στην παράγραφο 6.3.  
+
+Οι στατιστικοί έλεγχοι που εφαρμόσαμε αν και λαμβάνουν υπ> όψιν την αβεβαιότητα στις μετρήσεις, δεν μπορούν να είναι καθοριστικοί στο συμπέρασμά μας όταν έχουμε την τιμή της \textlatin{ensemble NXSV} του δείγματος για μόλις 7 το πλήθος ομάδες πηγών που περιέχουν 20 ή περισσότερες πηγές (δηλαδή 7 σημεία) και με τόσο μεγάλη αβεβαιότητα συνολικά. Ωστόσο, είδαμε στην παράγραφο 7.2 ότι από τα διαθέσιμα μοντέλα που εφαρμόσαμε, το <<vεπίπεδο>> μοντέλο 1 είναι αυτό το οποίο περιγράφει καλύτερα τόσο την \textlatin{ensemble NXSV} από τον κλασσικό υπολογισμό φωτομετρικών δεδομένων των καμπύλων φωτός όσο και την \textlatin{ensemble NXSV} από την εκτίμηση παραμέτρων της \textlatin{Bayesian} μεθόδου.\\
+Όμως, παρ> ότι το μοντέλο 1 είναι αυτό που στα πλαίσια των σφαλμάτων περιγράφει την σχέση \textlatin{ensemble NXSV} με την λογαριθμική φωτεινότητα και στις δύο περιπτώσεις, τα σφάλματα παραμένουν πολύ μεγάλα ώστε να αποφανθούμε ποιό από τα ήδη υπάρχοντα μοντέλα περιγράφει τα δεδομένα μας καλύτερα ή ακόμα για να χαράξουμε καμπύλη που να προσαρμόζεται καλά στα δεδομένα. Για να ξεπεραστεί αυτό, χρειαζόμαστε περισσότερες πηγές με καμπύλες φωτός στις χρονικές κλίμακες που μελετάμε- δηλαδή, περισσότερες παρατηρήσεις. 
+
+\section{Συμπεράσματα}
+%κατι που αξιζει να αναφερεις ειναι οτι χρησιμοποιοωντας εμπειρικες σχεσεις για το PSD απο το τοπικο συμπαν, χωρις αλλαγες των παραμετρεων (fitting) εισαι σε θέση να αναπαραγεις σε ικανοποιητικη ακριβεια τγη μεταβλητοτητα μακρινων ΑΓΝ. Αυτο σημαινει οτι σε πρωτη προσσεγγισξη δεν υπαρχει ενδειξη για διαφοριοποιηση με την ερυθρομετοπιση και οι φυσικες διεργασιες του ροπικου συμπαντος φαινεται να ισχυουν και στο μακρυνο. 
+Αρχικά, αξίζει να σημειώσουμε ότι χρησιμοποιώντας μοντέλα τα οποία βασίστηκαν σε εμπειρικές σχέσεις που πηγάζουν από παρατηρήσεις \textlatin{AGN} στο κοντινό σύμπαν, χωρίς αλλαγές παραμέτρων (\textlatin{fitting}) είμαστε σε θέση να αναπαράγουμε με ικανοποιητική ακρίβεια την μεταβλητότητα μακρινών \textlatin{AGN}. Αυτό σημαίνει ότι, σε πρώτη προσέγγιση, δεν υπάρχει διαφοροποίηση των ιδιοτήτων που μελετάμε με την ερυθρομετατόπιση και οι φυσικές διεργασίες του τοπικού σύμπαντος φαίνεται να ισχύουν και στο μακρινό.
+
+Στα πλαίσια της στατιστικής αβεβαιότητας των υπολογισμών μας, ευνοείται ένα επίπεδο μοντέλο συσχέτισης της \textlatin{ensemble NXSV} με την λογαριθμική λαμπρότητα $L_X$. Δηλαδή, μη-συσχέτιση της \textlatin{ensemble NXSV} με την λογαριθμική λαμπρότητα $L_X$ που υποδεικνύει ότι (αν η μεταβλητότητα στις ακτίνες Χ οφείλεται κατά βάση σε αστάθειες στον δίσκο προσαύξησης) ενεργοί γαλαξιακοί πυρήνες με διαφορετική μάζα κεντρικής μελανής οπής παρουσιάζουν στατιστικά όμοιες αστάθειες στην διαδικασία προσάυξησης.\\
+Αυτό έρχεται σε αντίθεση με μελέτες μεταβλητότητας \textlatin{AGN} που έχουν διεξαχθεί σε πεδία που έχουν ερευνηθεί σε βάθος όπως το πεδίο \textlatin{Chandra Deep Field - South}\cite{2017MNRAS.471.4398P} και το πεδίο \textlatin{Lockman Hole}\cite{2008A&A...487..475P} στα οποία έχει παρατηρηθεί αντισυσχέτιση της \textlatin{NXSV} με την φωτεινότητα $L_X$ στις ακτίνες Χ.\\
+Εδώ πρέπει να σημειώσουμε ότι τα αποτελέσματά μας δεν είναι καθοριστικά, αφού η αβεβαιότητα στις μετρήσεις μας είναι μεγάλη. 
+
+\subsection*{Βελτίωση της προσέγγισής μας}
+
+Περισσότερες παρατηρήσεις θα βελτιώσουν σημαντικά τόσο την ποιότητα των καμπυλών φωτός που χρησιμοποιούμε όσο και το πλήθος των πηγών που πληρούν τα χαρακτηριστικά ώστε να ενταχθούν στην έρευνά μας. Ακολούθως, θα περιοριστούν σημαντικά τα περιθώρια αβεβαιότητας των μετρήσεών μας ώστε να μπορούμε να έχουμε μια πιο ξεκάθαρη εικόνα συμβατότητας με ήδη υπάρχοντα μοντέλα ή για να χαράξουμε καμπύλες που προσαρμόζουν τα δεδομένα μας.\\ 
+Ένα ακόμα σημείο της μελέτης μας που μπορεί να ωφεληθεί από μεγαλύτερο πλήθος πηγών είναι ο τροπος που ομαδοποιούμε \textlatin{AGN} για τον υπολογισμό της \textlatin{ensemble NXSV}. Περισσότερες πηγές στο δείγμα μας θα μας επέτρεπαν να κάνουμε την ομαδοποίηση σε μικρότερα διαστήματα λαμπροτήτων, με αποτέλεσμα οι πηγές σε ένα \textlatin{bin} από τις οποίες προκύπτει μία μέτρηση \textlatin{ensemble NXSV} να είναι πολύ πιο όμοιας λαμπρότητας μεταξύ τους. Συνεπώς έχουμε πολύ περισσότερες πιθανότητες να ισχύει η παραδοχή μας ότι οι πηγές σε ένα \textlatin{bin} έχουν παρόμοιες ιδιότητες και χαρακτηριστικά.\\
+Τέλος, η μέθοδος στατιστικής \textlatin{Bayes} είναι η πλέον αξιόπιστη για την εκτίμηση φυσικών παραμέτρων από τα δεδομένα μας. Στην εργασία μας χρησιμοποιήσαμε \textlatin{uninformative priors}, απλές παραδοχές για το σήμα (ακολουθεί κανονική κατανομή), τον θόρυβο (είναι διαδικασία \textlatin{Poisson}) και γραμμικότητα για την ανταπόκριση του ανιχνευτή (η συνολική καταμέτρηση φωτονίων $Τ$ στο διάφραγμα είναι $Τ = CR \cdot t_{exp}\cdot \mbox{\textlatin{EEF}}+B$), καθώς και μη-συσχέτιση ενός σήματος με σήμα από διαφορετική συχνότητα ή από διαφορετικό χρόνο. Οι παραδοχές αυτές είναι συνεπείς με το φυσικό μοντέλο που ακολουθούμε, αλλά υπάρχουν περιθώρια να επανεξεταστούν: είτε για θέσπιση αυστηρότερων \textlatin{prior} (αν έχουμε συναρτήσεις που συνθέτουν γενική μορφή στοχαστικού σήματος), είτε για διαφορετικό φορμαλισμό ανταπόκρισης ανιχνευτή (έλεγχοι συμπεριφοράς των καμερών \textlatin{CCD} σε εργαστηριακό κενό), είτε για έλεγχο συσχέτισης των σημείων μιας καμπύλης φωτός (μεσώ προσομοιώσεων). Έπειτα, στα πλαίσια της μεθόδου \textlatin{Bayes} που χρησιμοποιήσαμε, είναι και ο χειρισμός των αλυσίδων \textlatin{Markov} για τις παραμέτρους που εκτιμήσαμε (μέσος ρυθμός φωτονίων και κανονικοποιημένη εγγενής διακύμανση) ο χειρισμός αυτός (για την μέτρηση επκρατούσας τιμής και διαστήματος εμπιστοσύνης) έγινε μέσω ιστογραμμάτων και μπορεί να γίνει με περισσότερη ευαισθησία (περισσότερα λογαριθμικά διαβαθμισμένα \textlatin{bin} στο ιστόγραμμα - ειδικά για πηγές με χαμηλές τιμές κανονικοποιημένης εγγενούς διακύμανσης).
+
+\subsection*{Μελέτη για την φυσική που διέπει συστήματα προσάυξησης}
+
+Στην εργασία αυτή επιχειρήσαμε να συγκρίνουμε την μεταβλητότητα του πληθυσμού ενεργών γαλαξιακών πυρήνων μας με το παρατηρησιακό μέγεθος της λαμπρότητας $L_X$. Το μέγεθος αυτό το υπολογίσαμε κάνοντας συνήθεις παραδοχές για κοσμολογικές παραμέτρους και χρησιμοποιώντας μετρήσεις ερυθρομετατόπισης- ήταν, δηλαδή, ένας ευθύς υπολογισμός. Μεγάλο φυσικό ενδιαφέρον έχει η σύγκριση της μεταβλητότητας με τα θεμελιώδη χαρακτηριστικά των ενεργών γαλαξιακών πυρήνων ως μεγάλης κλίμακας συστήματα προσαύξησης, δηλαδή η σύγκριση με την μάζα κεντρικής μελανής οπής και με τον ρυθμό προσαύξησης. Όπως είδαμε, όμως (φορμαλισμός αναλυτικών συναρτήσεων \textlatin{PSD}), για τα μεγέθη αυτά χρειαζόμαστε αστροφυσικά μοντέλα και μαθηματική μοντελοποίηση παρατηρησιακών δεδομένων. \\
+Στην εργασία αυτή δεν κάναμε καμία μοντελοποίηση- παρά μόνο χρησιμοποιήσαμε ήδη υπάρχοντα μοντέλα.
+
+Περισσότερες παρατηρήσεις θα οδηγούσαν σε καλύτερο υπολογισμό της \textlatin{ensemble NXSV} με μικρότερα σφάλματα, όμως ακόμα και τότε, αν μοντελοποιούσαμε κατάλληλα την συσχέτιση της μάζας μελανής οπής και του ρυθμού προσαύξησης στο δείγμα μας, θα μπορούσαμε μόνο να αποφανθούμε για μέση μάζα $Μ_{BH}$ και $\dot m _{Edd}$ για την συλλογή \textlatin{AGN} που περιέχονται στο κάθε \textlatin{bin} που χρησιμοποιήθηκε για τον υπολογισμό της \textlatin{ensemble NXSV}. Γι> αυτόν ακριβώς τον λόγο η \textlatin{ensemble NXSV} είναι χρήσιμη όταν μελετάμε πεδία με \textlatin{AGN} που έχουν όσο το δυνατόν παραπλήσια χαρακτηριστικά και έχουμε περιορισμένη πρόσβαση σε παρατηρήσεις ώστε να διαμορφωθούν χρήσιμες καμπύλες φωτός για κάθε ξεχωριστή πηγή.
+
+\subsection*{Επέκταση}
+
+Όπως είδαμε στην ενότητα 5.3, περιορίσαμε το δείγμα μας χωρίζοντας τον χρόνο παρατηρήσεων σε τρείς εποχές ώστε να έχουμε καμπύλες φωτός που εκτείνονται σε χρονικές κλίμακες $10-20$ \textlatin{yr}. Η μελέτη που κάναμε αφορούσε την μεταβλητότητα των \textlatin{AGN} σε αυτήν την χρονική κλίμακα. Με τα δεδομένα που έχουμε θα μπορούσαμε να κάνουμε μελέτη για καμπύλες φωτός που εκτείνονται σε μικρότερα χρονικά διαστήματα- όπου θα είχαμε και περισσότερες πηγές, αφού πολλές καμπύλες φωτός απορρίφθηκαν στην παρούσα μελέτη επειδή δεν εκτείνονταν στην χρονική κλίμακα που θέσαμε.\\
+Επίσης, χρησιμοποιήσαμε μόνο τα δεδομένα από τον ανιχνευτή ΡΝ (ο οποίος έχει την μεγαλύτερη απόδοση) όμως θα μπορούσαμε να χρησιμοποιήσουμε και τον συνδυασμό δεδομένων από τους ανιχνευτές \textlatin{MOS 1} kai \textlatin{MOS 2}.\\
+Στους καταλόγους με τους οποίους δουλέψαμε υπάρχουν τα φωτομετρικά δεδομένα και για σκληρές ακτίνες Χ, οπότε μπορούμε να επεκτείνουμε την έρευνά μας και στο ενεργειακό παράθυρο αυτό. Μελετάμε ξεχωριστά τις μαλακές ακτίνες Χ από τις σκληρές διότι υπάρχουν διαφορές στην \textlatin{PSD} (δηλαδή στο φάσμα) μαλακών και σκληρών ακτίνων Χ όπως έχει παρατηρηθεί σε κοντινούς \textlatin{AGN}, και έτσι αποφεύγουμε επιπλοκές στην ερμηνεία των σχέσεων μεταβλητότητας με άλλες φυσικές παραμέτρους\cite{2006ASPC..360...85M}. 
+
+
+%Η μεταβλητότητα μας δίνει χαρακτηριστική κλίμακα χρόνου ο ακριβής φυσικός μηχανισμός που την παράγει δεν είναι γνωστός, όμως οι χαρακτηριστικοί χρόνοι που προκύπτουν από πρώτες φυσικές αρχές μηχανικής, θερμοδυναμικής και ρευστοδυναμικής έχουν όλοι φυσική εξάρτηση από την αδράνεια της κεντρικής υπερμεγέθους μελανής οπής και κατ> επέκταση με τον ρυθμό προσαύξησης. Αυτός είναι και ο λόγος για τον οποίο η φυσική σχέση της μεταβλητότητας (που ποσοτικοποιείται στην \textlatin{NXSV} $\sigma_{rms}^2$)  με την μάζα μελανής οπής $M_{BH}$ θεωρείται η πλέον θεμελειώδης.
+%\begin{itemize}
+%    \item Δυναμικός χρόνος $Τ_{dyn}$ (χρόνος για να αποκατασταθεί η υδροδυναμική ισορροπία στον δίσκο): \begin{equation}Τ_{dyn} = 104 \Big(  \dfrac{R}{10^2 R_S}  \Big)^{3/2}  \dfrac{M_{BH}}{10^8 M_\odot} \mbox{\textlatin{days}}\label{eq:DynamicTimescale}\end{equation}
+    
+%    \item Θερμικός χρόνος $T_{th}$ (λόγος εσωτερικής ενέργειας προς τον ρυθμό θέρμανσης ή ψύξης): \begin{equation}T_{th} = 4.6 \dfrac{\eta^{-1}}{10^{-2}} \Big(  \dfrac{R}{10^2 R_S}  \Big)^{3/2} \dfrac{M_{BH}}{10^8 M_\odot}  \mbox{\textlatin{years}}\label{eq:ThermalTimescale}\end{equation}
+    
+ %   \item Χρόνος ιξώδους $T_{visc}$ (χρόνος για να αποκατασταθεί η υδροδυναμική ισορροπία στον δίσκο): \begin{equation} T_{visc} = T_{th} \Big(  \dfrac{R}{Η_{disc}}  \Big) \mbox{\textlatin{years}}\label{eq:ViscousTimescale}\end{equation}
+    
+%\end{itemize}
+%Όπου $R$ η ακτίνα του δίσκου προσαύξησης (κυκλικός δίσκος σε πρώτη προσέγγιση), $R_S$ η ακτίνα \textlatin{Schwarzschild}, $M_\odot$ η ηλιακή μάζα, $M_{BH}$ η μάζα κεντρικής υπερμεγέθους μελανής οπής και  $\eta$ το ιξώδες 
+
+
+
+
+
+
+
+
+%In several cases, due to the fact that we were quite conservative in assigning the 90\% confidence limits on our estimates, and especially for shorter intervals (10-20 ks) and less variable AGN (which are those objects with the largest MBH), the lower limit on σ 2rms implies an intrinsic excess variance less than zero. In this case, we consider our measurement as a “non-detection”, and we simply list in the respective tables the 90\% upper limit of our estimate.\cite{2012A&A...542A..83P}
+
+
+
+
+
+
+
+
+%On the other hand, in the overall “variability amplitude–redshift/luminosity” plots (shown in Fig. 2) the high luminosity objects are mainly those with the highest redshift as well. According to our results, their accretion rate should be the highest among the sources in our sample. Consequently, they should also show a large variability amplitude. However, they also have large BH masses, and their rest frame light curve length is also small. These two effects reduce significantly the observed variability amplitude, and can explain the global anti-correlation we observe between variability and redshift/luminosity. \cite{2008A&A...487..475P}
+
+
+
+
+
+
+
+
+
+%AGN variability is generally considered to be a stochastic process (e.g., Kelly et al. 2011). Therefore, every light curve can be interpreted as a realisation of an underlying set of statistical properties. In this context, Emmanoulopoulos et al. (2013) proposed an algorithm to generate light curves based on a probability density function (PDF) describing the distribution of fluxes, and a power spectral density (PSD) describing the distribution of time frequencies. Motivated by these ideas, we propose that AGN variability due to changes in SMBH fuelling can be modeled starting from the PDF and the PSD of the L/LEdd evolution with time2. A summary of the proposed approach is illustrated in Fig. 1. By assuming that over long enough time periods every AGN should span the same L/LEdd range as a static snapshot of the whole AGN population, the PDF shape may be inspired by the ERDF. On the other hand, the PSD of the L/LEdd curve is likely to have a broken power-law shape, similar to what is observed for the light curves on timescales of hours to years (although we note that such light curves are expressed in magnitude). The bending may also be expected since variability power cannot increase indefinitely, as accretion is bounded by physical processes. Following the algorithm in Emmanoulopoulos et al. (2013), the input PSD and PDF are used to generate L/LEdd curves which, assuming a radiative efficiency and a description for the BH mass growth, are converted into light curves. Following a forward modelling approach, the light curves can then be used to compute observables (e.g., SF points or magnitude differences) to be compared to real observations.\cite{Sartori_2018}
+
+%Our hypothesis is that a single ERDF+PSD set, or a limited number of them, should be able to reproduce observed light curves (in a statistical sense), that are consistent with the variability features observed both at short (∼yr) and long (>104 yr) timescales. This simple model effectively links the variability of individual AGN to the underlying, and more accessible, properties of the entire population. \cite{Sartori_2018}
+
+
+
+
+
+
+
+%Οι παραπάνω στατιστικοί έλεγχοι και η γραμμική προσαρμογή υποδεικνύουν αντισυσχέτιση, χωρίς όμως να λαμβάνουν υπ> όψιν το πλάτος των γραμμών σφάλματος 
+
+
+
+
+% Καταλογοσ:  ροή για φασματικό δείκτη 1.4
+
+
+
+
+
+
+
+
+
+% To further test the fit to the data a maximum-likelihood method was used. The resulting correlation can be seen in table 4.1 and is shown on the figure as a black 2line with the dashed lines marking the 1–σ error on the slope. A simple χ test was carried out on the data to calculate the acceptability of the fit (table 4.1). For 2the slope of -0.17 the χ test demonstrated that while significant it is a poor fit to the data, confirming the Spearman’s test. An f-test was then carried out to test the significance of the fit correlation relative to a constant value. 
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
